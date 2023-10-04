@@ -1,0 +1,27 @@
+{
+  "name": "inofi-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "local:start": "NEXT_PUBLIC_ENV=local next dev",
+    "local:build": "NEXT_PUBLIC_ENV=local next build",
+    "dev:build": "NEXT_PUBLIC_ENV=development next build",
+    "prod:start": "NEXT_PUBLIC_ENV=production next start",
+    "prod:build": "NEXT_PUBLIC_ENV=production next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.8.2",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.8",
+    "autoprefixer": "10.4.16",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.4",
+    "next": "13.5.4",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  }
+}
